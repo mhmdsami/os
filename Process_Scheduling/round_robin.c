@@ -37,7 +37,7 @@ int main() {
 				else {
 					t += rem_bt[i];
 					wt[i] = t - bt[i];
-					total_wait_time = wt[i];
+					total_wait_time += wt[i];
 					rem_bt[i] = 0;
 				}
 			}
